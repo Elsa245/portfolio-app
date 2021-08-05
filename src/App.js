@@ -1,16 +1,16 @@
 import React from 'react'
 
-function App() {
-  React.useEffect(() => {
-    const getData = async () => {
-      const res = await fetch('/api/endpoint') // * <-- replace with your endpoint
-      const data = await res.json()
-      console.log(data)
-    }
-    getData()
-  })
+import Nav from './components/Nav'
+import Home from './components/Home'
 
-  return <h1>Hello World</h1>
+function App() {
+
+  return (
+    <>
+      <Nav />
+      <Home />
+    </>
+  )
 }
 
 export default App
