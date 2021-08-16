@@ -1,0 +1,33 @@
+.title {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  small {
+    font-size: 25px;
+  }
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.portrait-picture { 
+  margin-top: 65px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  width: 270px;
+  height: 220px;
+  border: 2px solid rgb(182, 175, 175);
+  // justify-content: center;
+  // text-align: center;
+
+}

@@ -1,7 +1,12 @@
 @use './nav.scss';
+@use './home.scss';
+@use './footer.scss';
+@use './projects.scss';
+@use './skills.scss';
 
 body {
-  background-color: rgb(216, 216, 216);;
+  background-color: rgb(255, 255, 255);
+  display: flex;
 }
 
 .background-img {
@@ -15,12 +20,18 @@ body {
   justify-content: center;
 }
 .section {
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(255, 255, 255);
   padding-left: 10px;
+  flex-direction: column;
+  display: flex;
 }
 
 .project-img {
   width: 600px;
   height: 400px;
   margin-left: 20px;
+}
+
+hr {
+  color: grey;
 }
