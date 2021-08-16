@@ -9,7 +9,7 @@ function Projects() {
     <div id="projects" className="section">
       <h3>Projects:</h3>
 
-      <section>
+      <section className="project">
         <h3>Zenith</h3>
         <div className="project-devicons">
         <div className="project-devicon">
@@ -77,7 +77,10 @@ function Projects() {
           </div>
         </div>
         <p>A London based travel application consuming a tailored API of alternative places in the city using MongoDB and Express, on top of two external APIs (Mapbox and Postcodes.io) to display these visually on a map. In this project, I especially took ownership for the back-end of the Place and Review models as well as the routing for our API requests. For the front-end using React, I produced the Home page with a search functionality and a filtered API request to display only the highest rated places. I also wrote the Reviews component and I implemented the complete styling of the app with Sass and the Bulma framework to create a simple but responsive and intuitive user experience.</p>
-        <a target="_blank" href="https://trippy-project.netlify.app/"><img src={imgTrippy} className="project-img"/></a>
+        <div className="project-picture">
+          <a target="_blank" href="https://trippy-project.netlify.app/"><img src={imgTrippy} className="project-img"/></a>
+        </div>
+        
       </section>
 
       <section>

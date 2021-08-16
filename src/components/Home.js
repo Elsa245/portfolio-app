@@ -3,14 +3,15 @@ import Contacts from '../components/Contacts'
 import Experience from './Experience'
 import Education from './Education'
 import Skills from './Skills'
-import portraitPicture from '../images/portrait2.jpg'
+// import portraitPicture from '../images/portrait2.jpg'
 
 function Home() {
   return (
     <>
       <section className="section">
         <div className="title">
-          <img className="portrait-picture" src={portraitPicture} alt="portrait picture" />
+          <img className="portrait-picture" src="https://i.imgur.com/zEb2Kesb.jpg" alt="portrait picture" />
+          {/* <a href="https://imgur.com/zEb2Kes"><img src="https://i.imgur.com/zEb2Kesb.jpg" title="source: imgur.com" /></a> */}
         </div>
         <div className="title">
           <h1>Elsa Guibert <small>(She/Her)</small></h1>

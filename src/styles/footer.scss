@@ -10,12 +10,13 @@
   justify-content: space-around;
   width: 100%;
   padding: 10px;
+  margin: 35px 0 25px 0;
 
   a {
     // text-decoration: none;
     color: black;
   }
   a:hover {
-    color: #8f37a5;
+    text-decoration: solid;
   }
 }
