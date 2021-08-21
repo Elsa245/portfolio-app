@@ -7,7 +7,7 @@ import invaders from '../images/invaders.jpg'
 function Projects() {
   return (
     <div id="projects" className="section">
-      <h3>Projects:</h3>
+      <h3 className="title-projects">Main Projects:</h3>
 
       <section className="project">
         <h3>Zenith</h3>
