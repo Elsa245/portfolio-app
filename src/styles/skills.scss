@@ -1,3 +1,14 @@
+#skills {
+  display: flex;
+  flex-direction: column;
+  // text-align: center;
+  // justify-content: center;
+
+  h3 {
+    text-align: center;
+  }
+}
+
 .devicons{
   font-size: 2rem;
   display: flex;
@@ -5,9 +16,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  max-width: 600px;
+  // max-width: 600px;
   padding-left: 20px;
   padding-right: 20px;
+  // text-align: center;
+  margin: 0 60px 0 60px;
 }
 
 .devicon-div{
