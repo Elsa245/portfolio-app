@@ -2,7 +2,6 @@ function Skills() {
   return (
     <div id="skills" className="section">
       <h3>My Skills:</h3>
-      {/* <div> */}
       <div className="devicons">
           <div className="devicon-div">
             <i className="devicon-javascript-plain"></i>
@@ -84,7 +83,6 @@ function Skills() {
             <i className="devicon-chrome-plain"></i>
             <span>Chrome</span>
           </div>
-        {/* </div> */}
       </div>
     </div>
   )
