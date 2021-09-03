@@ -1,3 +1,6 @@
+import React from 'react'
+import BackToTop from 'react-back-to-top-button'
+
 import Projects from '../components/Projects'
 import Contacts from '../components/Contacts'
 import Experience from './Experience'
@@ -9,7 +12,7 @@ function Home() {
   return (
     <>
       <section className="section">
-        <div className="title">
+        <div class="title">
           <img className="portrait-picture" src="https://i.imgur.com/zEb2Kesb.jpg" alt="portrait picture" />
           {/* <a href="https://imgur.com/zEb2Kes"><img src="https://i.imgur.com/zEb2Kesb.jpg" title="source: imgur.com" /></a> */}
         </div>
@@ -41,6 +44,14 @@ function Home() {
       <div className="background-img"></div> */}
       <Contacts />
       {/* <div className="background-img"></div> */}
+      <BackToTop
+        // showOnScrollUp
+        showAt={100}
+        speed={1500}
+        easing="easeInOutSine"
+      >
+        <span>^</span>
+      </BackToTop>
     </>
   )
 }
