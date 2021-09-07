@@ -1,5 +1,5 @@
 import imgTrippy from '../images/trippy.jpg'
-import artmatch from '../images/artmatch.jpg'
+import artmatch from '../images/artmatch2.jpg'
 import invaders from '../images/invaders.jpg'
 
 

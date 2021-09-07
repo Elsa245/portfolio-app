@@ -6,33 +6,34 @@
 @use './skills.scss';
 
 body {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-}
-
-.background-img {
-  background-image: url(../images/tile.jpg);
+  background-image: url(../images/tile2.jpg);
   background-position: center;
   background-attachment: fixed;
-  width: 100%;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100%;
+  padding-bottom: 4%;
 }
+
 .section {
   background-color: rgb(255, 255, 255);
-  padding-left: 10px;
+  padding: 0 3% 0 3%;
   flex-direction: column;
   display: flex;
+  width: 70%;
+  // height: 80%;
+  margin: auto;
+  
 }
+
+.top-page {
+  margin-top: 5%;
+}
+
+// .bottom-page {
+//   margin-bottom: 5%;
+// }
 
 .project-img {
   width: 600px;
   height: 400px;
   margin-left: 20px;
-}
-
-hr {
-  color: grey;
 }

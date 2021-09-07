@@ -18,7 +18,7 @@ function Nav() {
     <nav className="navbar navbar-style">
       <div className="container">
         <div className="navbar-brand">
-          <Link to='/' className="navbar-item has-text-dark main-buttons">Elsa Guibert</Link>
+          <Link to='/' className="navbar-item has-text-dark main-buttons text">Elsa Guibert</Link>
           <div className={`navbar-burger ${isOpen ? 'is-active' : ''}`}
             aria-label="menu"
             aria-expanded="false"
@@ -30,9 +30,9 @@ function Nav() {
         </div>
         <div className={` navbar-style navbar-menu ${isOpen ? 'is-active' : ''}`}>
           <div className="navbar-end ">
-            <div className="navbar-item">
-              <Link to='/experience' className="link-nav mr-3"> Experience</Link>
-              <Link to='/education' className="link-nav">Education</Link>
+            <div className="navbar-item ">
+              <Link to='/experience' className="link-nav mr-3 text"> Experience</Link>
+              <Link to='/education' className="link-nav text">Education</Link>
             </div>
           </div>
         </div>
