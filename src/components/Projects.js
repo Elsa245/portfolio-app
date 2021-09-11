@@ -1,6 +1,7 @@
 import imgTrippy from '../images/trippy.jpg'
 import artmatch from '../images/artmatch2.jpg'
 import invaders from '../images/invaders.jpg'
+import zenith from '../images/zenith2.jpg'
 
 
 
@@ -40,10 +41,10 @@ function Projects() {
             <i className="devicon-nodejs-plain"></i>
           </div>
         </div>
-        <p>A wellness-focused app built in Python, Django, PostgreSQL for the back-end to create a RESTful API and React styled components to develop the front-end. Using the idea of an Agile workflow, the user, once authenticated, can set a new sprint period and access a personal dashboard with sprint goals and habits, weekly intentions and daily trackers that automatically reset after their end date. I particularly focused on conceiving the ERD diagram and writing the relationships between our back-end models while producing the Sprint Goal, Daily Mood and Energy-Level models and their front-end pages using React Context. I also implemented a slider and a calendar library, as well as an external weather API (Open Weather Map).</p>
-        {/* <div className="project-picture">
+        <div className="project-picture">
           <a target="_blank" href=""><img src={zenith} className="project-img"/></a>
-        </div> */}
+        </div>
+        <p>A wellness-focused app built in Python, Django, PostgreSQL for the back-end to create a RESTful API and React styled components to develop the front-end. Using the idea of an Agile workflow, the user, once authenticated, can set a new sprint period and access a personal dashboard with sprint goals and habits, weekly intentions and daily trackers that automatically reset after their end date. I particularly focused on conceiving the ERD diagram and writing the relationships between our back-end models while producing the Sprint Goal, Daily Mood and Energy-Level models and their front-end pages using React Context. I also implemented a slider and a calendar library, as well as an external weather API (Open Weather Map).</p>
       </section>
 
       <section className="project">
