@@ -4,8 +4,8 @@ import { IoArrowUpCircle } from 'react-icons/io5'
 
 import Projects from '../components/Projects'
 import Contacts from '../components/Contacts'
-import Experience from './Experience'
-import Education from './Education'
+// import Experience from './Experience'
+// import Education from './Education'
 import Skills from './Skills'
 import portraitPicture from '../images/ElsaG_Profile.jpg'
 
@@ -15,7 +15,7 @@ function Home() {
     <>
       {/* <div className="background-img"></div> */}
       <section className="section top-page">
-        <div class="title">
+        <div className="title">
           <img className="portrait-picture" src={portraitPicture} alt="portrait picture" />
           {/* <a href="https://imgur.com/zEb2Kes"><img src="https://i.imgur.com/zEb2Kesb.jpg" title="source: imgur.com" /></a> */}
         </div>

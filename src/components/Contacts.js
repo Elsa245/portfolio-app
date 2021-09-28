@@ -9,8 +9,8 @@ function Contacts() {
       <h3 className="contact">Contact me:</h3>
       <div className="footer-nav">
         <a href="mailto: elsa.guibert@yahoo.fr"><MdMail />  Email: elsa.guibert@yahoo.fr</a>
-        <a target="_blank" href="https://www.linkedin.com/in/elsa-guibert/"><FaLinkedin />  LinkedIn</a>
-        <a target="_blank" href="https://github.com/Elsa245"><FaGithubSquare />  GitHub</a>
+        <a target="_blank" href="https://www.linkedin.com/in/elsa-guibert/" rel="noreferrer"><FaLinkedin />  LinkedIn</a>
+        <a target="_blank" href="https://github.com/Elsa245" rel="noreferrer"><FaGithubSquare />  GitHub</a>
       </div>
     </div>
   )

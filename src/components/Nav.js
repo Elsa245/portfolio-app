@@ -42,8 +42,8 @@ function Nav() {
               {/* <Link to='/experience' className="link-nav mr-3 text"> Experience</Link> */}
               {/* <Link to='/education' className="link-nav text">Education</Link> */}
               <a href="mailto: elsa.guibert@yahoo.fr" className="link-nav ml-6 mr-3 text"><MdMail /></a>
-              <a target="_blank" href="https://www.linkedin.com/in/elsa-guibert/" className="link-nav mr-3 text"><FaLinkedin /></a>
-              <a target="_blank" href="https://github.com/Elsa245" className="link-nav mr-3 text"><FaGithubSquare /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/elsa-guibert/" className="link-nav mr-3 text" rel="noreferrer"><FaLinkedin /></a>
+              <a target="_blank" href="https://github.com/Elsa245" className="link-nav mr-3 text" rel="noreferrer"><FaGithubSquare /></a>
             </div>
           </div>
         </div>
