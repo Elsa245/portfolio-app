@@ -7,7 +7,7 @@ import Contacts from '../components/Contacts'
 import Experience from './Experience'
 import Education from './Education'
 import Skills from './Skills'
-import portraitPicture from '../images/portrait.jpg'
+import portraitPicture from '../images/ElsaG_Profile.jpg'
 
 
 function Home() {
@@ -16,15 +16,15 @@ function Home() {
       {/* <div className="background-img"></div> */}
       <section className="section top-page">
         <div class="title">
-          <img className="portrait-picture" src="https://i.imgur.com/zEb2Kesb.jpg" alt="portrait picture" />
+          <img className="portrait-picture" src={portraitPicture} alt="portrait picture" />
           {/* <a href="https://imgur.com/zEb2Kes"><img src="https://i.imgur.com/zEb2Kesb.jpg" title="source: imgur.com" /></a> */}
         </div>
         <div className="title">
           <h1>Elsa Guibert <small>(She/Her)</small></h1>
           <h2>Junior Web Developer</h2>
         </div>
-        <hr />
-        <div className="menu">
+        {/* <hr /> */}
+        {/* <div className="menu">
           <ul>
             <li><a href="#skills">skills</a></li>
             <li>|</li>
@@ -32,7 +32,7 @@ function Home() {
             <li>|</li>
             <li><a href="#contacts">contacts</a></li>
           </ul>
-        </div>
+        </div> */}
         <hr />
       </section>
       {/* <div className="background-img"></div> */}
@@ -40,9 +40,9 @@ function Home() {
       {/* <div className="background-img"></div> */}
       <Projects />
       {/* <div className="background-img"></div> */}
-      {/* <Experience />
-      <div className="background-img"></div>
-      <Education /> */}
+      {/* <Experience /> */}
+      {/* <div className="background-img"></div> */}
+      {/* <Education /> */}
       {/* <div className="background-img"></div> */}
       <Contacts />
       {/* <div className="background-img"></div> */}

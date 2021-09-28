@@ -7,17 +7,30 @@
   .project {
     // justify-content: center;
     margin: 30px;
+
     p {
       text-align: justify;
-      padding: 10px;
+      padding-top: 10px;
       font-family: 'Tajawal', sans-serif;
+      width: 80%;
+      margin: auto;
+    }
+
+    h1 {
+        margin-top: 15px;
+        font-family: 'Tajawal', sans-serif;
+        font-size: 26px;
+      }
+
+    h2 {
+      font-family: 'Tajawal', sans-serif;
+      font-size: 22px;
+      width: 80%;
+      margin: auto;
     }
   }
 
-  h3 {
-    margin-left: 10px;
-    font-family: 'Tajawal', sans-serif;
-  }
+  
 
   .title-projects {
     text-align: center;
@@ -50,12 +63,25 @@ a {
   color: black;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  font-family: 'Tajawal', sans-serif;
+  width: 80%;
+  margin: auto;
+  // border: none;
+}
+
 .project-devicons {
   display: flex;
   flex-direction: row;
   // padding-bottom: 25px;
   font-size: 1.5rem;
-  margin: 10px 0 0 10px;
+  // margin: 10px 0 0 10px;
+  width: 80%;
+  margin: auto;
 
   .project-devicon {
     padding-right: 10px;
